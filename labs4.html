@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/labs4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="menu">
+                <li  class="lia"><a href="index.html">HOME</a></li>
+                <li  class="lia"><a href="about.html">ABOUT</a>  </li>
+                <li class="lia"><a href="labs4.html">LABS4</a></li>
+                <li class="lia"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+     <!-- Tab links -->
+     <div class="tabs">
+        <button class="tablinks active" data-electronic="allproducts">Requirement</button>
+        <button class="tablinks" data-electronic="Microcontrollers">Design</button>
+        <button class="tablinks" data-electronic="module">Implement</button>
+     </div>
+
+     <!-- Tab content -->
+     <div class="wrapper_tabcontent">
+       
+        <div id="allproducts" class="tabcontent active">
+         
+      <p>Yêu cầu: 
+        <br>Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ như lớp môn học, giảng viên,… <br>
+         đó thiết kế chức năng Quản lý đối tượng đó trên html bao gồm các tính năng thêm, sửa, xóa, tìm kiếm cho đối tượng đó.<br>
+        Ví dụ:<br>làm chức năng Quản lý Sinh viên, bao gôm tính năng thêm, sửa, xóa, tìm kiếm. 
+        <br>Chú ý:<br>
+         Các thành viên trong lớp, trong nhóm không được chọn các đối tượng giống nhau. 
+        <br>Tạo 1 menu Lab4 trên website cá nhân (sử dụng thẻ  trong html) bao gồm các tab sau:
+        
+       <br> 1. Tab Requirement: copy lại nội dung của phần 1 ở trên (Yêu cầu) vào đây (và trình bày lại cho đẹp)
+       <br> 2. Tab Design: để link tới các file sau đây:
+        <br>Thiết kế trên giấy (chụp lại ảnh) (có nút Download để tải ảnh về)
+        <br>Chụp lại màn hình đã thiết kế trên HTML <br>
+        (có nút Download và Go to Figma để link tới link Figma - share ở dạng file để cô có thể coi từng thành phần)
+      <br>  3. Tab Implement: là trang html của chức năng Quản lý đó </p>
+        
+          
+        </div>
+
+        <div id="Microcontrollers" class="tabcontent">
+       
+                <img src="../assets/img/anhThietKe.jpg" alt="ảnh thiết kế" class="size_img">
+          <div class="bt_manager">
+                <a href="../assets/img/anhThietKe.jpg" download="../assets/img/anhThietKe.jpg" class="a_download"><button class="bt_download">DOWNLOAD IMAGE</button></a>
+                <a class="link_figma" rel="abc.html"><button class="bt_figma">FIGMA</button></a>
+            </div>
+               
+        </div>
+
+        <div id="module" class="tabcontent">
+            <table>
+                <tr>
+                    <td>
+                        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                            <div>
+                                <label>LOẠI NƯỚC UỐNG</label><label class="validation-error hide" id="fullNameValidationError">Vui lòng nhập thông tin đồ uống cần đặt</label>
+                                <input type="text" name="typeName" id="typeName">
+                            </div>
+                            <div>
+                                <label>THƯƠNG HIỆU</label>
+                                <input type="text" name="brand" id="brand">
+                            </div>
+                            <div>
+                                <label>GIÁ</label>
+                                <input type="text" name="salary" id="salary">
+                            </div>
+                            <div>
+                                <label>SỐ LƯỢNG</label>
+                                <input type="text" name="number" id="number">
+                            </div>
+                            <div  class="form-action-buttons">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </td>
+                    <td>
+                        <table class="list" id="employeeList">
+                            <thead>
+                                <tr>
+                                    <th>LOẠI NƯỚC UỐNG</th>
+                                    <th>THƯƠNG HIỆU</th>
+                                    <th>GIÁ</th>
+                                    <th>SỐ LƯỢNG</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+        
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+     </div>
+</body>
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/labs4.js"></script>
+</html>
