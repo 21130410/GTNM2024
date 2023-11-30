@@ -46,7 +46,7 @@
   
 
   /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
-  body > table{
+body > table{
     width: 80%;
 }
 
@@ -108,3 +108,27 @@ label.validation-error{
 .hide{
     display:none;
 }
+
+/* nút download và nút link-begin*/
+.button-container {
+  display: flex;
+  gap: 10px; /* Khoảng cách giữa các nút */
+}
+
+.link-button,
+.download-button {
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #333;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.link-button:hover,
+.download-button:hover {
+  background-color: #ddd;
+}
+/* nút download và nút link-end*/
+

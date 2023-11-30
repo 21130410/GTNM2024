@@ -1,0 +1,61 @@
+.img_background{
+    display: flex;
+    height: 600px;
+    width: 400px;
+
+}
+
+.size_img1{
+
+}
+.implement_img{
+    height: 600px;
+    width: 600px;
+}
+.button-container1 {
+    display: flex;
+    gap: 23%;/* Khoảng cách giữa các nút */
+  }
+
+/*implement*/
+.left_booking{
+    display: flex;
+}
+.ship .address .order1{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    padding-bottom: 10%;
+    justify-content: left;
+    border-bottom: 2px solid gray;
+}
+.ship .address p.order1{
+    text-align: left;
+}
+.list_address .item_address{
+ font-size: 20px;
+ padding-top: 10px;
+}
+.name{
+    color: black;
+    font-size: bold;
+}
+.buy-btn{
+   margin-left: 30px;
+   height: 30px;
+   width: 100px;
+   float: right;
+}
+.item_address{
+    list-style: none;
+}
+.list_address .item_address .ten_nguoi_mua , .item_address .don_hang{
+ font-size: bold;
+ color: red;
+}
+.line_address{
+    width: 300px;
+    border-bottom: 2px solid gray;
+    height: auto;
+
+}

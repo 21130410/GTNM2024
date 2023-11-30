@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/labs4.css">
+    <link rel="stylesheet" href="assets/css/labs5.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="menu">
+                <li  class="lia"><a href="index.html">HOME</a></li>
+                <li  class="lia"><a href="about.html">ABOUT</a>  </li>
+                <li class="lia"><a href="labs4.html">LAB4</a></li>
+                <li class="lia"><a href="labs5.html">LAB5</a></li>
+                <li class="lia"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+     <!-- Tab links -->
+     <div class="tabs">
+        <button class="tablinks active" data-electronic="allproducts">Requirement</button>
+        <button class="tablinks" data-electronic="User_Scenario">User Scenario</button>
+        <button class="tablinks" data-electronic="Microcontrollers">Design</button>
+        <button class="tablinks" data-electronic="module">Implement</button>
+     </div>
+
+     <!-- Tab content -->
+     <div class="wrapper_tabcontent">
+       
+        <div id="allproducts" class="tabcontent active">
+         
+      <p>Yêu cầu: 
+        <br>(1) Tạo ra một user scenario<br>
+        (2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện Web trên công cụ thiết kế đã chọn.<br>
+        <br>Sau đó thiết kế trên Figma rồi chuyển sang html tương ứng cho thiết kế này.
+        <br>Upload lên github: trong file html có chèn hình ảnh của user scenario ở (1) và đường dẫn của file thiết kế ở (2).<br>
+          
+        </div>
+
+       <div id="Microcontrollers" class="tabcontent">
+            <div class="img_background">
+                <img src="assets/img/datSach.png" alt="ảnh thiết kế" class="">
+                <img src="assets/img/datSachImp.png" alt="ảnh đã thực thi" class="implement_img">
+            </div>
+       
+            <div class="button-container1">
+                
+                <a href="assets/img/datSach.png" download="assets/img/datSach.png" class="download-button">Download Image</a>
+                <a href="https://www.figma.com/file/sbXsQHEkLi66XBUnaYEKN6/21130410_DangTanKiet?type=design&node-id=0-1&mode=design" class="link-button">Figma</a>
+            </div>
+               
+        </div>
+
+        <div id="module" class="tabcontent">
+            <div class="left_booking">
+            <div class="giaohang">
+                <div>
+                  <h3>1. Chọn hình thức giao hàng</h3>
+                  <div class="input">
+                    <input type="radio">
+                    <label for="huey">Giao Siêu Tốc 2H</label>
+                  </div>
+                  <div class="input">
+                    <input type="radio">
+                    <label for="huey">Giao Sáng Mai</label>
+                  </div>
+                  <div class="input">
+                    <input type="radio">
+                    <label for="huey">Giao Tiết Kiệm</label>
+                  </div>
+                  <div class="product">
+                    <img src="assets/img/anh1.jpg" alt="">
+                    <p>Bí Mật Của May Mắn
+                      <br> Cuốn Sách Đi Tìm
+                      <br>
+                      <span>SL: 1</span>
+                    </p>
+                  </div>
+            </div>
+            <div class="thanhtoan">
+                  <h3>2. Chọn hình thức thanh toán</h3>
+                  <div class="input">
+                    <input type="radio" id="chec" name="drone" value="chec" checked>
+                    <label for="chec">
+                      <img class="icon" src="assets/img/icon-payment-method-cod.svg" alt="">
+                      Thanh toán tiền mặt khi nhận hàng</label>
+                  </div>
+                  <div class="input">
+                    <input type="radio" id="chec" name="drone" value="chec" checked>
+                    <label for="chec">
+                      <img class="icon" src="assets/img/vt-pay.png" alt="">
+                      Thanh toán bằng ViettelPay</label>
+                  </div>
+                  <div class="input">
+                    <input type="radio" id="chec" name="drone" value="chec" checked>
+                    <label for="chec">
+                      <img class="icon" src="assets/img/icon-payment-method-mo-mo.svg" alt="">
+                      Thanh toán bằng ví MoMo</label>
+                  </div>
+                  <div class="input">
+                    <input type="radio" id="chec" name="drone" value="chec" checked>
+                    <label for="chec">
+                      <img class="icon" src="assets/img/icon-payment-method-zalo-pay.svg" alt="">
+                      Thanh toán bằng ví ZaloPay</label>
+                  </div>
+                  <div class="input">
+                    <input type="radio" id="chec" name="drone" value="chec" checked>
+                    <label for="chec">
+                      <img class="icon" src="assets/img/icon-payment-method-atm.svg" alt="">
+                      Thẻ ATM nội địa/Internet Banking (Hỗ trợ Internet Banking)</label>
+                  </div>
+                  <div class="input">
+                    <input type="radio" id="chec" name="drone" value="chec" checked>
+                    <label for="chec">
+                      <img class="icon" src="assets/img/icon-payment-method-cod.svg" alt="">
+                      Thanh toán bằng thẻ quốc tế Visa, Master, JCB</label>
+                  </div>
+
+                </div>
+
+              </div>
+          
+            <div class="ship">
+                <div class="address">
+                    <div class="order1">
+                       <p>Địa chỉ giao hàng</p> 
+                        <button class="buy-btn">sửa</button>
+                    </div>
+                    <ul class="list_address">
+                        <li class="item_address ten_nguoi_mua">Nguyen Van A</li>
+                        <li class="item_address">Thủ Đức -TP. Hồ Chí Minh</li>
+                        <li class="item_address">Điện thoại: 0971432019</li>
+                        <li class="item_address">Tiki khuyến mãi</li>
+                        <li class="item_address">Chọn hoặc nhập khuyến mãi</li>
+                        <li class="item_address don_hang">Đơn hàng</li>
+                        <li class="item_address">1 sản phẩm</li>
+                    </ul>
+                    <div class="line_address"></div>
+                    <ul class="list_address">
+                        <li class="item_address">Tạm tính: 65.000đ</li>
+                        <li class="item_address">Phí vận chuyển: 29.000đ</li>
+                        <li class="item_address thanh_tien">Thành tiền: 84.000đ</li>
+                    </ul>
+                 
+            </div>
+            <button class="buy-btn">Đặt mua</button>
+          </div>
+        </div>
+        </div>
+     </div>
+     <div id="User_Scenario" class="tabcontent">
+        <div class="button-container"></div>
+        <img src="assets/img/userScario.png" alt="ảnh thiết kế" class="size_img">
+        <div class="button-container">
+            <a href="https://www.figma.com/file/sbXsQHEkLi66XBUnaYEKN6/21130410_DangTanKiet?type=design&node-id=0-1&mode=design" class="link-button">Figma</a>
+            <a href="assets/img/userScario.png" download="assets/img/userScario.png" class="download-button">Download Image</a>
+        </div>
+     </div>
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/labs4.js"></script>
+</html>

@@ -3,9 +3,13 @@
     margin: 0;
     text-decoration: none;
     color: black;
+
  
 
 
+}
+body{
+   background-color:  bisque;
 }
 
 header{
@@ -105,4 +109,28 @@ header a:hover{
 .img-fluid{
     height: 300px;
     width: 300px;
+}
+/*home*/
+body .produce,.about_me{
+    padding-top: 10%;
+    margin-left: 600px;
+    margin-right: 600px;
+ 
+}
+.produce{
+
+}
+.about_me{
+ margin-top: -5%;
+
+}
+.about_me button{
+ padding-top: -10%;
+ height: 40px;
+ width: 100px;
+ border-radius: 2px solid black;
+
+}
+.about:hover{
+ background-color: green;
 }
