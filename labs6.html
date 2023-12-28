@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/labs4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="menu">
+                <li  class="lia"><a href="index.html">HOME</a></li>
+                <li  class="lia"><a href="about.html">ABOUT</a>  </li>
+                <li class="lia"><a href="labs4.html">LAB4</a></li>
+                <li class="lia"><a href="labs5.html">LAB5</a></li>
+                <li class="lia"><a href="labs6.html">LAB6</a></li>
+                <li class="lia"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+     <!-- Tab links -->
+     <div class="tabs">
+        <button class="tablinks active" data-electronic="allproducts">Requirement</button>
+        <button class="tablinks" data-electronic="Microcontrollers">Ex1</button>
+        <button class="tablinks" data-electronic="module">Ex2</button>
+     </div>
+
+     <!-- Tab content -->
+     <div class="wrapper_tabcontent">
+       
+        <div id="allproducts" class="tabcontent active">
+            <ul class="labcontent">
+                <li>Trong menu Labs, tạo 1 menu Lab3 (file lab3.html) sau đó tạo
+                  2 tab Ex1, Ex2</li>
+                <li><b>Ex1:</b> Thiết kế một trangWeb đơn giản sử dụng mẫu F-pattern
+                  ==> chuyển sang html (ex1.html)</li>
+                <li><b>Ex2:</b> Thiết kế một trangWeb sử dụng mẫu Z-pattern ==>
+                  chuyển sang html (ex2.html)</li>
+                <li>Với cả Ex1, Ex2: Tạo 2 tab Design và Implementation:
+                  <br>
+                  <span>- <b>Design:</b> Chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế, có
+                    nút Download để download file thiết kế về nếu muốn</span>
+                  <br>
+                  <span>- <b>Implementation:</b> Nội dung phần hiện thực trên html</span>
+                </li>
+                <li>Upload lên Azure / Github</li>
+              </ul>
+          
+        </div>
+
+       <div id="Microcontrollers" class="tabcontent">
+             <button><a class="" href="https://www.figma.com/file/RUOZOoOZoMnp8r5LtywYfC/lab6_F-PATTERN?type=design&node-id=0-1&mode=design&t=zoiH8YowgZUGaDAm-0">Figma</a></button>
+             <!-- Thẻ iframe -->
+             <button onclick="toggleIframe()">Implement</button>
+
+             <iframe id="myIframe1" src="ex1.html" frameborder="0" width="100%" height="500" style="display: none;"></iframe>
+        
+              
+        </div>
+
+        <div id="module" class="tabcontent">
+            <button><a class="" href="https://www.figma.com/file/y9nqEquSqHHuaFryhqkV8k/Lab6_Z-PATTERN?type=design&mode=design&t=p9NMzlIQpqyqK8Jm-0">Figma</a></button>
+       
+            <!-- Thẻ iframe -->
+            <button onclick="toggleIframe2()">Implement</button>
+
+            <iframe id="myIframe2" src="ex2.html" frameborder="0" width="100%" height="500" style="display: none;"></iframe>
+        </div>
+     </div>
+</body>
+     
+<script>
+    function toggleIframe() {
+        var iframe = document.getElementById('myIframe1');
+        if (iframe.style.display === 'none') {
+            iframe.style.display = 'block';
+        } else {
+            iframe.style.display = 'none';
+        }
+    }
+    function toggleIframe2() {
+        var iframe = document.getElementById('myIframe2');
+        if (iframe.style.display === 'none') {
+            iframe.style.display = 'block';
+        } else {
+            iframe.style.display = 'none';
+        }
+    }
+    </script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/labs4.js"></script>
+</html>
