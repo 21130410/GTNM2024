@@ -1,0 +1,233 @@
+
+.lab4-header {
+    width: 100%;
+    height: 90px;
+    background-color: #ee4d2d;
+    position: relative;
+  }
+  .lab4-header .logo{
+    font-size: 24px;
+    margin-left: 60px;
+  }
+  .lab4-header .logo a{
+    color: #fff;
+  }
+  .lab4-header .header-top{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 900px;
+    margin-left: 30px;
+  }
+  .header-top .search{
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .header-top .search input{
+    width: 400px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 4px 18px;
+  
+  }
+  .header-top .search i{
+  margin-right: 12px;
+  }
+  .header-icon a{
+    color: #fff;
+    margin-left: 10px;
+    opacity: 1;
+  }
+  .header-icon a:hover{
+    color: #fff;
+    opacity: 0.6;
+  }
+  .header-icon select{
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+  }
+  .header-icon option{
+    color: #333;
+  }
+  .header-bot .menu{
+    text-align: center;
+  }
+  .header-bot .menu a{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: 0.4s ease-in;
+    opacity: 1;
+  }
+  .header-bot .menu a:hover{
+    color: #333;
+    /* opacity: 0.5; */
+  }
+  /* lab4 content */
+  .lab4-content{
+    margin-top: -12px;
+    width: 100%;
+    background-color: white;
+    
+  }
+  .lab4-content p{
+    margin-top: 12px;
+  }
+  .lab4-content .modal{
+    margin-right: 8px;
+  
+  }
+  .lab4-content .name{
+    margin-left: 8px;
+  }
+  .lab4-content .arrow{
+    font-size: 12px;
+  }
+  .product{
+    display: flex;
+  }
+  .product .img{
+    width: 450px;
+    height: 450px;
+  }
+  .product-content p{
+    display: inline-block;
+  }
+  .product-content{
+    padding-left: 50px;
+  }
+  .product-content .price{
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #929292;
+    margin-right: 10px;
+  }
+  .product-content .newprice{
+    font-size: 36px;
+    /* margin-top: -4px; */
+      font-weight: 500;
+      color: #d0011b;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .product-content .soluong{
+    margin-left: 40px;
+  }
+  .product-content .buy{
+    text-align: center;
+  }
+  .product-content .buy button{
+    padding: 8px 12px;
+    background: rgba(255,87,34,.1);
+    background: rgba(208,1,27,0.08);
+    color: #d0011b;
+    border: 1px solid #d0011b;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 3%);
+    margin-right: 20px;
+    transition: 0.4s;
+  }
+  .product-content .buy button:hover{
+    transition:all 0.4s linear;
+    background: #d0011b;
+    color: #fff;
+    transform: scale(110%);
+  }
+  .reweiw b{
+    font-size: 24px;
+    /* font-weight: 500; */
+  }
+  .reweiw  .them{
+    padding: 8px 80px;
+    background: rgba(255,87,34,.1);
+    background: rgba(208,1,27,0.08);
+    color: #d0011b;
+    border: 1px solid #d0011b;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 3%);
+    margin-right: 20px;
+    transition: 0.4s;
+    text-align: center;
+  }
+  .them{
+    margin-left: 600px;
+   
+  }
+  /* contact */
+  .contact{
+    margin-top: -100px;
+
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .contact1{
+    width: 200px;
+    
+  }
+  .contact1 label{
+    font-weight: 900;
+  }
+  .contact1 div{
+    margin-top: 20px;
+  }
+  .contact2{
+    width: 800px;
+  text-align: center;
+  }
+  .contact2 p{
+    font-weight: 900;
+  }
+  .contact .send{
+    margin-top: 30px;
+    padding: 8px 80px;
+    background: rgba(255,87,34,.1);
+    background: rgba(208,1,27,0.08);
+    color: #d0011b;
+    border: 1px solid #d0011b;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 3%);
+    /* margin-right: 20px; */
+    transition: 0.4s;
+    
+  }
+  .contact .send:hover{
+    transition:all 0.4s linear;
+    background: #d0011b;
+    color: #fff;
+    transform: scale(110%);
+  }
+  .contact input{
+    padding: 0 8px;
+    height: 44px;
+    width: 350px;
+    margin: 8px 8px;
+    display: inline-block;
+   
+  }
+  a.download1{
+ color: rgb(29, 120, 4);
+  }
+  h1{
+    color: white;
+  }
+  #content1{
+    height: 120px;
+    width: 722px;
+  }
+  #email{
+    width: 722px;
+  }
+  #content1::placeholder{
+    text-align: top;
+  }
+  li{
+    list-style: none;
+  }
+  #shop__contact{
+    margin-left: 60%;
+  }
