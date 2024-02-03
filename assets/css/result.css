@@ -1,0 +1,18 @@
+*{
+list-style: none;
+}
+.container_re{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    font-size: 20px;
+}
+li{
+    padding-top: 10px;
+}
+.section1{
+  margin-left: 100px;
+}
+.section2{
+    margin-right: 60px;
+}
